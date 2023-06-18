@@ -1,5 +1,5 @@
 import { Mulish } from "next/font/google";
-import {Header} from "@/components/header";
+import { Header } from "@/components/header";
 import Footer from "@/components/footer";
 import "./globals.css";
 
@@ -7,7 +7,6 @@ export const metadata = {
   title: "JOI CLOTH",
   description: "Online Clothing Store",
 };
-
 
 const mulish = Mulish({
   weight: "400",
